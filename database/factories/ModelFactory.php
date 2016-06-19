@@ -34,3 +34,28 @@ $factory->define(\CodeDelivery\Models\Product::class, function (Faker\Generator 
         'price' => $faker->numberBetween(5, 50)
     ];
 });
+
+$factory->define(\CodeDelivery\Models\Order::class, function (Faker\Generator $faker) {
+    return [
+        'client_id' => $faker->numberBetween(1,10),
+        'total' => $faker->numberBetween(50, 100),
+        'status' => 0
+    ];
+});
+
+$factory->define(\CodeDelivery\Models\OrderItem::class, function (Faker\Generator $faker) {
+    return [
+    ];
+});
+
+
+
+$factory->define(\CodeDelivery\Models\Client::class, function (Faker\Generator $faker) {
+    return [
+        'phone' => $faker->phoneNumber,
+        'address' => $faker->address,
+        'city' => $faker->city,
+        'state' => $faker->state,
+        'zipcode' => $faker->postcode,
+    ];
+});
