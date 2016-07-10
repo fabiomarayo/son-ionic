@@ -15,7 +15,7 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $models = ['Category', 'Product', 'Client', 'Order', 'User'];
+        $models = ['Category', 'Product', 'Client', 'Order', 'User','Cupom'];
 
         foreach($models as $model){
             $this->app->bind(
