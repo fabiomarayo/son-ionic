@@ -2,30 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac30b662-d0c1-4949-9445-9d78d2451770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/CupomsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Requests/AdminCupomRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Models/Cupom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Repositories/CupomRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Repositories/CupomRepositoryEloquent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Services/OrderService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2016_07_09_133319_create_cupoms_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/CupomTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/cupoms/_form.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/cupoms/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/cupoms/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/cupoms/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/customer/order/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/customer/order/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/OAuth2/PasswordVerifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/OAuthClientSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Checkrole.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Checkrole.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repositories/ProductRepositoryEloquent.php" afterPath="$PROJECT_DIR$/app/Repositories/ProductRepositoryEloquent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
     </list>
     <ignored path="son-curso-ionic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,102 +36,80 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+            <state relative-caret-position="194">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Checkrole.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Checkrole.php">
+      <file leaf-file-name="OAuthClientSeeder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/OAuthClientSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckoutController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
-                <element signature="e#49#95#0#PHP" expanded="true" />
+                <element signature="e#7#38#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/customer/order/index.blade.php">
+      <file leaf-file-name="2014_04_24_110459_create_oauth_clients_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_04_24_110459_create_oauth_clients_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+      <file leaf-file-name="ModelFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="660">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
+      <file leaf-file-name="UserTableSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-              <folding>
-                <element signature="e#122#168#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="443">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/customer/order/create.blade.php">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+            <state relative-caret-position="285">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <file leaf-file-name="VerifyCsrfToken.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/create.blade.php">
+      <file leaf-file-name="oauth2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/oauth2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -164,17 +128,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response31.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/CategoryRepositoryEloquent.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/AdminProductRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/config/auth.php" />
         <option value="$PROJECT_DIR$/config/services.php" />
@@ -198,7 +158,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" />
         <option value="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Models/Cupom.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_07_09_133319_create_cupoms_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/CupomTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CupomsController.php" />
@@ -216,8 +175,16 @@
         <option value="$PROJECT_DIR$/resources/views/customer/order/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Checkrole.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/OAuth2/PasswordVerifier.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/config/oauth2.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/OAuthClientSeeder.php" />
       </list>
     </option>
   </component>
@@ -265,8 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,8 +265,18 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="son-ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="son-ionic" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,19 +290,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="order" />
+              <option name="myItemId" value="seeds" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,15 +308,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,33 +326,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="factories" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,104 +345,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Services" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Requests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son-ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,17 +358,1429 @@
     <property name="SearchEverywhereHistoryKey" value="checkro&#9;null&#9;null&#10;rout&#9;FILE&#9;file:///var/www/html/son-ionic/app/Http/routes.php&#10;app.&#9;FILE&#9;file:///var/www/html/son-ionic/resources/views/app.blade.php&#10;order&#9;FILE&#9;file:///var/www/html/son-ionic/app/Models/Order.php&#10;UserTa&#9;null&#9;null&#10;Factory&#9;FILE&#9;file:///var/www/html/son-ionic/database/factories/ModelFactory.php&#10;app&#9;FILE&#9;file:///var/www/html/son-ionic/resources/views/app.blade.php&#10;productre&#9;null&#9;null&#10;app.blade&#9;FILE&#9;file:///var/www/html/son-ionic/resources/views/app.blade.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/admin/orders" />
-      <recent name="$PROJECT_DIR$/app/Models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database/seeds" />
       <recent name="$PROJECT_DIR$/resources/views/customer/order" />
       <recent name="$PROJECT_DIR$/app/Services" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/app/Http/Requests" />
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/admin/orders" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468685710000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkZCVDlPN2JFMVBCRHJ2bUV4WUJvU3c9PSIsInZhbHVlIjoib1cycWY3bFQ0c1o1RlJTRG5pc2pxZTR6Z2o1SkZoQVpiTDJGUGVTUlllMGhkSTBadnk5UG5HRnA5eHZ2QVNvR01IbFpIUlh6T3ZyMW84aUtMUlwvamhnPT0iLCJtYWMiOiIzY2EyMDU4YjRiNjg0ZDE2YWVmYmYyNTNkZmVhNDQ4NzMzMjIyMDEyNTY3ZjNkN2ViZjQ3OTMzZDUyMTA0NzY5In0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468685710000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Iml0SlYybkQ4eDRcL0NUdVwvQXhYWW5DUT09IiwidmFsdWUiOiJqQmFlQ0pcL1VGVkhjWTJXNmJZZTF2UFRkZjFDNTAwTzBzM2JrN2VScitQc2ZJR1ZGWnNBMDVRSEdmekx6YUt3a3RLVyt2UG9NOUdIVXZEVWNYeVN0dEE9PSIsIm1hYyI6ImI2ZTc5YjA0ZGMyYzczMDMxYzZiNjhlOGYzNWNkYzQ4MDViMDM0MTI0MmM0YWQ5MzJiYTFhZjNhMjgxMjc4NWUifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer iTxeYTVRFkAeM0qvbC7Fr3snebZ7u9gdwnxnhP0e" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="appid01" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="secret" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="XrL6MXI365XSl4eYz5CEvn16KdfwGTM4TR7cmug0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468685641000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImIrZ21WU2E3QmF2dXc5U0J5T050XC9nPT0iLCJ2YWx1ZSI6ImM1RnU2UjBoQXcyV0ZCQW1mb21LQjBkWlBSS05yZzlhUkhldE5WWmhNNE8zOUJNUlwvZzRnR0lic3l5K284S3M1TWtrSWIyMUN2YmRVMDdhaGQ2N1RwUT09IiwibWFjIjoiMGMwZDIzYTkxMjhhNTljZDFhN2M4NjcwOGI0YWMzMjcxMWJjOWY0NWZkZWJhOThkMjRhZjg2ZmI2YzliZjA4MSJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468685641000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5jeUk5aEllM1RVYUJqSXNKQmFVblE9PSIsInZhbHVlIjoib01XaXFIcENqcExSeURRSHdVZlBPdWZPUUNyeFhoS1JwTGcrV3R1bVE5YXQwTkNjeVwvWkplVjJuenNGNWtcLzBlM1o0VEwreGRaa1JYekZXd2tiU2p4QT09IiwibWFjIjoiZTY1MjdmM2EyY2QyZDlkZTU3YzE3MzYxNjFiNjgzNGRhY2QyYzRhYmU1Mjk0MTYxODJkNzMyMDdiMzYxZjU1YyJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer iTxeYTVRFkAeM0qvbC7Fr3snebZ7u9gdwnxnhP0e" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="appid1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="secret" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="XrL6MXI365XSl4eYz5CEvn16KdfwGTM4TR7cmug0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468685612000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlpFV1NpQ1h0NTVEUlwvSUNlK0lrOEtRPT0iLCJ2YWx1ZSI6IlZhWEY0a25rcFdRUFBqOEs1WmVYaVkrZGJJanlRUHdaeWh5OHhQTTNPUzBoU2ZJTWVCWUk3dldlT3RCcUxNSitEd0t3ck9xR3J6TnNvbjliR1NRQzdBPT0iLCJtYWMiOiIzNmE3NzFiOWMyYWFiYzQ5ZDE2ZTU2N2E3YzU0NDU2MDU3MDg3MTZhYjU3ZjRiNWM0YjFlZWU4Y2Q1Njk3NmYxIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468685612000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im1Kek1uc2dxWjB6NGd5TVJtY3VyNUE9PSIsInZhbHVlIjoib1NzZkhIa1MrelVjanZtUzl3NEdQXC8yWlpYM1ZVYkZjTWtrTnFOZEY0NEc0aHZ0REJrbnNHRG1vZk1DNG9tSjNNemtcL3h5b2ZKU2o2cGk4Umw1MTIzZz09IiwibWFjIjoiYmMxZDg2ODFlMTRjZDkxNmYyMmYyM2Q4YjE3OTUxZDU4MzUxZjg4NDlmOGQ2YTRlNjUzMmFmYTliMTFlNzFjMyJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer iTxeYTVRFkAeM0qvbC7Fr3snebZ7u9gdwnxnhP0e" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="appid1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="secret" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="XrL6MXI365XSl4eYz5CEvn16KdfwGTM4TR7cmug0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684573000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkoyWEJmVlVZaHFPdG54QUxmQmRoR1E9PSIsInZhbHVlIjoiZWljV1RjeFcrd0JJcDN6cVA3akdWQTRNNmw3b1hqWVwvZ0JYYm1qa2NmTFFQWlRZQnNMdnlFZHI5Y2ZcL0cwcU5zS2pEb09HUitiM2pBTTN1aEZwTE8wdz09IiwibWFjIjoiMWJmMjQ4ZjU4YTgxY2MwNzMwMTg3YzEyOTc5MjkxZmU2ZmE3YTMwZDBhY2RhNzAyOWU5OGQ2MjM4MDgzYzFmMyJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684573000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlRvWmpxZ29SWHZBOHhteWE4NG9HQkE9PSIsInZhbHVlIjoieWFCZW5UN2lGSFpueWRDVEFVQW1ZaW83cllBbXFYOFdGVFdHYlwvUXpWSXJ4QVdibnpWRzFUWjVlUDdnNUxCYXJUZTJieU1ENkpjMStnWmh0MVhEcVF3PT0iLCJtYWMiOiJkMWQ2YWZiNjZmY2VkMzJiNjMzZDIxMDcxZGRiOGI4MzM1NDcxOWFjMTliMzFlYjM2OThhM2RlYTIyZTVkOTBmIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer iTxeYTVRFkAeM0qvbC7Fr3snebZ7u9gdwnxnhP0e" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="refresh_token" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="XrL6MXI365XSl4eYz5CEvn16KdfwGTM4TR7cmug0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684573000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkoyWEJmVlVZaHFPdG54QUxmQmRoR1E9PSIsInZhbHVlIjoiZWljV1RjeFcrd0JJcDN6cVA3akdWQTRNNmw3b1hqWVwvZ0JYYm1qa2NmTFFQWlRZQnNMdnlFZHI5Y2ZcL0cwcU5zS2pEb09HUitiM2pBTTN1aEZwTE8wdz09IiwibWFjIjoiMWJmMjQ4ZjU4YTgxY2MwNzMwMTg3YzEyOTc5MjkxZmU2ZmE3YTMwZDBhY2RhNzAyOWU5OGQ2MjM4MDgzYzFmMyJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684573000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlRvWmpxZ29SWHZBOHhteWE4NG9HQkE9PSIsInZhbHVlIjoieWFCZW5UN2lGSFpueWRDVEFVQW1ZaW83cllBbXFYOFdGVFdHYlwvUXpWSXJ4QVdibnpWRzFUWjVlUDdnNUxCYXJUZTJieU1ENkpjMStnWmh0MVhEcVF3PT0iLCJtYWMiOiJkMWQ2YWZiNjZmY2VkMzJiNjMzZDIxMDcxZGRiOGI4MzM1NDcxOWFjMTliMzFlYjM2OThhM2RlYTIyZTVkOTBmIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer iTxeYTVRFkAeM0qvbC7Fr3snebZ7u9gdwnxnhP0e" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="refresh_token" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="XrL6MXI365XSl4eYz5CEvn16KdfwGTM4TR7cmug0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684530000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InJ0UGtoWWNteldGSVVHNXRUU2kzdHc9PSIsInZhbHVlIjoiWkFsN2FjMjJmWUJIaWplY2dtNldaY1pGVWpGRG85OXk4Q21pT2J0WVlURmRlb09mZXFSUEpRSnJuc3dDOHVCXC9NbWRCeExGa2c3S1lsRVFveGM1Zmp3PT0iLCJtYWMiOiIzMWQ3YmYyZmRhNjdkM2E0ZTU5MTczZTk5NDc0MzIzY2RhYmQ1NDgwOGMzYjU4NDdkYzk3OTMzY2EyY2NlMDNhIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684530000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ikx0S21laThxYUpUVmMxVnU1NXdoeEE9PSIsInZhbHVlIjoieXBLbk91MytCaWszVUl5Nm1aaUpCV3RScGhQRHlIZjN2dHNMUE5aU3U5TnNpZnJuY3FvODdcLzNROXZxenlDN0dRaG8reGNEY2pBcUtcL1IzSjhqcG45UT09IiwibWFjIjoiMGUyNDkxYzk4YTg3NTEwY2Q5YTg5M2IyMDQzMGU3OWZjZDc5MzljYmFhZDZhNzM3NDA5YTY3NmMzMDRkYzc2MSJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/api/pedidos" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer iTxeYTVRFkAeM0qvbC7Fr3snebZ7u9gdwnxnhP0e" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="refresh_token" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="XrL6MXI365XSl4eYz5CEvn16KdfwGTM4TR7cmug0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684530000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InJ0UGtoWWNteldGSVVHNXRUU2kzdHc9PSIsInZhbHVlIjoiWkFsN2FjMjJmWUJIaWplY2dtNldaY1pGVWpGRG85OXk4Q21pT2J0WVlURmRlb09mZXFSUEpRSnJuc3dDOHVCXC9NbWRCeExGa2c3S1lsRVFveGM1Zmp3PT0iLCJtYWMiOiIzMWQ3YmYyZmRhNjdkM2E0ZTU5MTczZTk5NDc0MzIzY2RhYmQ1NDgwOGMzYjU4NDdkYzk3OTMzY2EyY2NlMDNhIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684530000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ikx0S21laThxYUpUVmMxVnU1NXdoeEE9PSIsInZhbHVlIjoieXBLbk91MytCaWszVUl5Nm1aaUpCV3RScGhQRHlIZjN2dHNMUE5aU3U5TnNpZnJuY3FvODdcLzNROXZxenlDN0dRaG8reGNEY2pBcUtcL1IzSjhqcG45UT09IiwibWFjIjoiMGUyNDkxYzk4YTg3NTEwY2Q5YTg5M2IyMDQzMGU3OWZjZDc5MzljYmFhZDZhNzM3NDA5YTY3NmMzMDRkYzc2MSJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/api/pedidos" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer iTxeYTVRFkAeM0qvbC7Fr3snebZ7u9gdwnxnhP0e" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="refresh_token" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="XrL6MXI365XSl4eYz5CEvn16KdfwGTM4TR7cmug0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684183000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImgwSk84ajh4cWNTcFNCcEg3OXZjRlE9PSIsInZhbHVlIjoiVVB0MElwNTVNT1FjY0gyV294enRkWDR2OHAzbjl6NTBPQWgydXlyZStcL0l1VkpVMmdcL3RSS2dWdm96YmI5bnpGbENnOExGN3FRbEg2YnZqQlBTZExkdz09IiwibWFjIjoiMGRjZjM3YTFmM2IxMjUyYTQ5MWI0YmE3ZWI2NjVhMTFiNjgxNzhjYzk0YTM5ZDYwZWNhOTdmZjQ2ZGU4NGU4YiJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684183000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ilo2cFNPdWNJaXU5TWd0dDBQU2ZRd2c9PSIsInZhbHVlIjoiTkdjVlVsdkY5T0ZZNllSbk5DSTNmNkdSV1NKWFY3M2UwaXZBQmxabkI5K3BHVWpHeURhdzBmaHMwMkhxSUtkZXpka2NNMDdsT1Rva1I4YlllWEZ3dWc9PSIsIm1hYyI6IjAyZjMyZGFmOWU4ODlkOTdjMzg3NmNiZmFhOWFkMzQ1ZWJlMDBkZDBiMGYzYTcyZWNlMTdjODNjNTlmNzUxZTcifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="refresh_token" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="XrL6MXI365XSl4eYz5CEvn16KdfwGTM4TR7cmug0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684169000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjlhK01Bd21IN01EcmY4bERvVHpwT2c9PSIsInZhbHVlIjoiUHFmSlEwSm4rQkZLOERTYmRiTmlXXC90cDEyNmR6MGdPVjI0aWxOSGhBaENrK1JVUStrOUQySGdhODhBUWVLaGdmaXRpOTBXRm5Bb0hcL1wva1lBS1ZuXC9BPT0iLCJtYWMiOiJjNTM2YjkzZjQ4NzRkNDhkZDVkNzQ0YjNkNTFlNWE1YTdjN2U5MTNmNmIzNDFjZTRkZjkyYzJhNTYyZGE5YzdkIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684169000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlBlekl0ZStxRzRrbEY5VkppRWxONVE9PSIsInZhbHVlIjoiYnE3Y09HWmpQS0h6RUlRUURsbUhZVHZDbmJWSnBCWG9aTTlGNkg4MXQyeWtBekQ5S0lYK2hlT2tOK20xOTJBcG5SbzlMbVVrRTBJUnNlcVZMTzBHZ3c9PSIsIm1hYyI6ImY0YmExNWQwZjJkNjgxMzYxYTRkNmU0YjA3MjkxODdkM2QxYWFjODAzNTM4Mzg0YTFmNGI1MTI1ZTYwZGQ0MzcifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="NyQT5kU9eoJMcna0qWgav72LzqrKVpeSJxvAEOrQ" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684166000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InQzZ1RxaWxOd0pKVlBHOXMyYXlGbFE9PSIsInZhbHVlIjoiYzdFRjZsNjRTMmxVV2Q3S2RsSEZUb3UwUitVYWpteE9tTFB2S25cL21tdTFPSnljV2UwMEoyMHc5VVwvMVBOTW9BdXE5ejRxWWNmejNXdUdMYkJ5a21OZz09IiwibWFjIjoiZGQwNGQwMGM2NGNmM2QyNDZjZDk3YTBlZjg5ZmIyNjk2NDgwYTY0Nzc1MTIzMzQ5NjIwN2NlYzZmZTZjOTQ1MiJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684166000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InMxaG0zQ3Y3TlNqbHIyVVRWcmpFUXc9PSIsInZhbHVlIjoiUlB1WG93RCtKd3Y0dnBpdncyQ2JxMjM5TGJnRUJZQ0pxb1I3RVgySVN6bXJ3cWZRek5QQ09UTXl0Qm5XQmhaQVhodE03Wk0wZzIyRjBJS1ZGK0JxUXc9PSIsIm1hYyI6ImViODYwZWI3MjJiMzc4OWE1YmViNjE1ZDAyMjMwMTYyZTBkN2FjNzlhOTliOGYxNzY2ZWYwOWFjZDkzOWM1YWIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="refresh_token" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="NyQT5kU9eoJMcna0qWgav72LzqrKVpeSJxvAEOrQ" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684144000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjRyVm02VXpWMUVJZEp1MnhMaDk2QWc9PSIsInZhbHVlIjoiMWpjZys2S2d1bGFUenZCMlFPWHQySjlEdjgxTzRrVnJ5MTYraDRFZ3E4a0NQdFwvaktXRG54RWdBSjBGdG5wTmcrZDR4QVZrN1c0bUhlTHNlVzJvQnZBPT0iLCJtYWMiOiI2YWFlZDU0M2ExNGM0YmY4ODMwZWZmZGMxODM5NzhhZTNmYjA0YzJkMTFmYjI5NWU0YWUxMDQyYTllMjU1NWUwIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684144000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImFZQXpNa0w3Zmd4S1wveUd4ekJSY05BPT0iLCJ2YWx1ZSI6IlVycjZFZFwveEpVeVhiZFM0aG9BdkhtVnhEKzFiRG9mUklCRUdrNHpDNEJuUWNQd2Z0c0VBbEdlVU1XUlEySkwwdExJVU9mempYOVdSUEJFMkYyQWVSdz09IiwibWFjIjoiM2RhZDQwYTAzM2QwNjM4YjkzM2U3ZGRmZDIzNjFlMjUyMGM4YmNlMWNhMGYyZDI3MGU1M2JmMTFkZmQ1Nzk0MSJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="refresh_token" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="NyQT5kU9eoJMcna0qWgav72LzqrKVpeSJxvAEOrQ" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684131000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImRNeWhsWGZ0R2xmZ0RoUEhZSzVZc3c9PSIsInZhbHVlIjoiODQyUjZ4T1NpKzZYMUV2b3ZKYW1FYzZEbkFIXC9GK21xU1dNQm9FZnZaaUQ3Y05SNUthU08wMFwvTnBwejJQOVBOXC81aUp1SnZLcTFzTTIrbVwvMW1VZENBPT0iLCJtYWMiOiIyZmVkMmE3NWNkYzRhZjMwMTU5ODZiNDg2ZmRhY2JjZmIxMWQ1NzkyOWRlNWQzNjUzNDkzN2EyZjc4YWViYjNmIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684131000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ino1SVV5QTVqS01td2UxOERlakh5alE9PSIsInZhbHVlIjoiM2VwME9uS3ErK3NYbGdxNmMzQ2VXb3JUSUxcLzlLQk93WkVBbHUzQVd1Y1pvdjJDSld2YjZrbFUrQyt6TVdOdWZnUEtTZ01cL3I5d0ZWa0tZRk5BUmozZz09IiwibWFjIjoiOTQ5OGY3YjNlMjNjODM2MmFlNmE0YmRlOWQ3ZjIyZTEyNDZiODJhZjVmZjVhNDg0ZjY5YThiMjc2MGRmMGJkMSJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="RkD1RwQC5w9gp5tFh8OnJgezTXGG8lrpUQD2vtdN" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684074000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InlFbFhLcFJkUWFzXC93Q0wzbmdnM3ZRPT0iLCJ2YWx1ZSI6IjBybzBoS3RraEhsMFRxbGNDbWd5azEzQ1lvM2J5UVhkRjQ2OGtwUW14NTVDRVlWUDRlS1BHcGNcL2lTcGRlbDg2Q3hlTVdIREh0WE1LQ2xUUEFSemhOQT09IiwibWFjIjoiZmI0NWUxODFhMDY1MTI4ZjI2MTE2NTViZWNhOWZkYjI0ZTZmMzlkZDE0OTJiNjVkZmE0NTMzMjhhY2RiYWVmMSJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684074000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjZ0OWFDMjJ2VmJqY2hrWlltYStHOXc9PSIsInZhbHVlIjoiWWRnMjRhbW1mWlgybjM2ckV0UGdOSlBPbE5hNFNIR095NkFRd3dFRU4wRUZFYkU5QVBtM3dSOVQyRTM0OUJvUGpvc0xIYk9XYVlDK3RcL3VGWkFuRVZBPT0iLCJtYWMiOiJkNzJkNjYxZTI4YmIxYWUxMGNlZGViMTU3NTU1Y2U2YmE1YWVjMTAzYjMyNDdlM2VmZGMxMzAwOTUxZjI1MzhjIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="refresh_token" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="RkD1RwQC5w9gp5tFh8OnJgezTXGG8lrpUQD2vtdN" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468684016000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InAwYU9kbjI1OHNUV0R4c2xlcUs2UkE9PSIsInZhbHVlIjoicEV0Tlg0b0kyNDloZm8xcDhwaHhOd0Z2cll4S0NEV2J0NDdXZTloMzBhV2tMQVBvRGNDSzVcL21IUjByamo1Z3AwcFI1RFpVXC9CNlFXVVgrKzhGVlowdz09IiwibWFjIjoiNGZkOGI5ZjQ5ZjU2Y2FiNTgyYWVmOWJiMWI0YTNlNmM1YWQ5ZjU1NGM5NjA1MDBlNWY1MGIwYThiN2RmZjNkNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468684016000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlhJallPWURYeFVoR3RUdWR5QmJEMEE9PSIsInZhbHVlIjoiSHFIMzlxaG52UllFRkpMZDRKQjhqNTdwSU9tVTIwXC9xRlBGQ2MrUFluaFZcL09WRWdPbXJudDhKUUd1SEJuMGg3SWJjdW5peDI3azNleENYYlwvQXZcL2NBPT0iLCJtYWMiOiI5OTFjNjVjNjdkZDNmY2I3ZDhjYTQyMjhiNTEwMTFlOTIwNTA4MzQ5MzkxMjE5YzFmOTVkZjllM2I2MDE5YWFhIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="refresh_token" />
+                <option name="value" value="RkD1RwQC5w9gp5tFh8OnJgezTXGG8lrpUQD2vtdN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468639675000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IllLM3UrZFVlOVwvQlRPNERyZTRnUkZnPT0iLCJ2YWx1ZSI6Im5FVDlabllUQUhRSVFMR1VHMnBnV2lxRFJTUjdFTHFSbE9Ta2p3Z1VZakNZV1d2d0Z6UUVzWFh4c1hLdzVmRW5VcmQ4WGZyQ0NzYmVmQWdVUjlEVHh3PT0iLCJtYWMiOiI1NzMwMDA4MTc5ZjkyODQxNDQwM2M0ODFmN2M3OWUwNDgyMTIwNjlkNWY1YmZhMzRhMWI1YzFiNWRhYmE5MDUwIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468639675000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlVNdGhkWUxtblg1TnpDaWJQK0lieWc9PSIsInZhbHVlIjoiOUpkRzFEM3crMWlqVW9wV283aVR1YnR1eUFLVjlWVWtVVG42dnJ3a0lDdWFMRk9udHVTd2dObFA3YVo4aGZ4MHluY3Z5UWU4RkREN3BuclErYm5ESnc9PSIsIm1hYyI6IjIyNWJkY2M0Zjg4YjgzMmMxYzU3ZTdkMjczMzdkZmY4NmQ2NWU1ODk4MjJjMjg1OGNlNWRjMDNlYWMzZmYxOTIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="user@user.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468639650000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImNmNnVxQ3JQQWlIZ0d4bHliUVwvQ3pnPT0iLCJ2YWx1ZSI6InlqU3RqaG94NmtkK3FIaFhJQlY5Y2F4aWF6THYwc1lUdGszczI2WkdUTmUwZEJGdVdPenhRZ0k5R3NwOXdVeGExWVNFZ3RQZFpoV2djeFk5eDlEajJBPT0iLCJtYWMiOiJmOWY3OTFlMDBjZWE4NTZkZGY0NTNjYzI2YTY3ZDAwNGI4ZjlkMWI0OWVjNzBmYWRlYjk3ZGIzYTkwZGFkZmI1In0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468639650000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImppTnRTTlBQTEdJSWt6dWVcL3lucm13PT0iLCJ2YWx1ZSI6IjNMNHl6dURpWThKeTRcL05ldDd2UlByTEFRYmNvZU0wcmZZY21FSXkrbWVlbHZSOWFiaGJCYXlWNVRvWkpOTjRHN0lwXC9cL2U1SEpxSGdvWXFLeGFrc3FnPT0iLCJtYWMiOiJiYTAxZTAyMmY2YWZlZjI0YjhjMmY0ZWVlMTRlM2ZiZGRiMGU4YTZlN2U3MzRjNDJjZmMyMjdjNGQ5YWE1YWEzIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="admin@admin.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637767000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjNRK3EyUzZPeTdtWExkU1wvVkFkOVlBPT0iLCJ2YWx1ZSI6IjNYanRIMG12Q0w2YkxKait2TVpOdTAxSWZMb25cL0lZaXZBd1doV0VYdlwvaHlkWG9SM0JtbjFoQ0pvZHYxQmlkc0t3RmRSSmRIUlpueFZxcVg4RkgwTnc9PSIsIm1hYyI6IjE2ZjQwODdiYTQzYTEwODAzN2JiYmZjNDZlMGU4YTUzZDE0NWQyMTM4OTkxOGM1MzJlYWIyM2QxNTZhNmUwNDUifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637767000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjZPd2Y5eTJVblVTblVNWGNYK2xwcUE9PSIsInZhbHVlIjoiNVwvOU1uT2ZXTGdnWGJ1QnVXamM3Rmo4MEU4STBxMmF0eFN1dVJhaFRTNXI5TkhDQzdcL3ZUVW52VGJEWHRaY1VFdDgzbDYzMSttNWxjWnkyaFNPM1dsQT09IiwibWFjIjoiNTYzMGIwNmFmMzc4YzJlN2Q5YzFmMDRmOGY0Mzk2ZGEzMjE0YzQwNGYyMTRhNWFjYzA3NzFiOGRiMjJiZWVmMSJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="sonion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="bdcab1853b9905ee10b9afb93e83eae2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637679000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjdZcHAxclRWZ3pBa2pRQ1wvRktKOXRnPT0iLCJ2YWx1ZSI6InpFUnZjcEdRUXNNYkJUaHZPMG03QTFKZ3NVUjNCb0tkV1pCQ2IwV2tnNDlCY1Z1MU5FeUJQXC9UTFFcL3k2eGhBWUxQRkVHeXNIbG91S0R6bFYrTVBicUE9PSIsIm1hYyI6ImEyYjllNTZiZjU4ODNhZDlhYzI4ODU3ZDZjZjAxNTQ4YjNjMDQ2MTA3OGQ3YzU0NmNlM2YxNjQ2MGI2OTkwNmIifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637679000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkFwdUxnMjNOMW1IMkNxUlJrdUplYUE9PSIsInZhbHVlIjoiNXQ2OVlTOFMrMVg2Wm5wMUhNYTMwc1p2V1NiblowVlgxZUowbVZFRytJNEtoQmhLQTZFSWR0Y2g1TjZHN01lRkpyTWluM1VxajgrUTZMd3d5UHZpVnc9PSIsIm1hYyI6IjA3ODEzMDBiNjFiMGRkMjdiYjRmZThkYWYzOGU2ZTNhZmZiMTc3M2ViMTY1OGMwMTZlYjVkMWE1ZGViNmJlZTUifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_secret" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637659000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IldOWWdNaE95MWM5UEJjZHo0RmNNT0E9PSIsInZhbHVlIjoiQ2xVR3RqRVRtRExsbk5vU0NtUVdkSTBOc2l6aEN6dlwvRXo0cDNJaTEzMWJ3eWxoc0Q4OENobmdMaHZ4UzdHQmpPUmpOZldFYnZrY1wvc3V2NTl6cERNUT09IiwibWFjIjoiMzZmZmEwZTJhZTI2MzJlMzY4M2RjMWQ4NzVmMjQxZGFjOGQ0M2Y4MDg2M2YxYzEwMmFhNGRiY2RlYTMwNDhjMyJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637659000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlEzR2J6M3NOOWxMZlJlWmsxZ1VCU2c9PSIsInZhbHVlIjoiVGRsb3JXeWhiTCtETjJ3RitIQ0IwMDB1TVJQakRHS3ZraHUyb1RiKzR3TDVabm42XC9Tb2hPTmIzZlBvbzJlTHRhUnFwUGp4aDFBK1hwY3F3Y21DWStnPT0iLCJtYWMiOiI5Njk1ZDBiZGM4MTQ1YTg4ZjM3NTVmZDk3MDhhNmEzMWRhODMzOWVlMGZkNjk0YTg3OTNiOTIyM2MxMGFjMThmIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637504000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IklZTW56M0J6YjdSRGhkeXpjaFVWanc9PSIsInZhbHVlIjoid3p1SFwvRzVSa21taCs0NGc1T2hmWlFtTHVSM2lvQkNSVWpcL2NvdlwvS2RWZmcwRXE3TTluNnU2RHMzR2tzeUlXRm8yRVM0NTJGTk11WDRhNmhlU2hNVWc9PSIsIm1hYyI6ImRkY2MxMDMyMWZjMDhmOWQxZmZlMTExOTVjMmNhM2EzZDcxMWZhZDg5MTAyY2E1ODNiNzdjZDM1YTg2ZmFjZGUifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637504000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlJlOWphbG1LdWE1QlliMjFNSFE5OEE9PSIsInZhbHVlIjoiZ3FsT0hCSWQ4Vm1wUnJIS1hIN3A4bVU2QmtZNXNjWWRUUGloWUcza0tTTGlCS3hJQW5YYjBzTFpkSTlCcFZ6YmZPSkRJZkdmSElDSEJWc0JJalpHWkE9PSIsIm1hYyI6IjAxOGQ4ZTU0MTYzM2Y0MWQ5YzNhYTBlNmFkZjhiNzkwYzMxZDUwMTU0Njk4Y2I1YmRmMDhjZDI4NzViNzg2MmEifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="password" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637503000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjRwcEtCS0VyUU1udzBSaGJlZGwwMUE9PSIsInZhbHVlIjoibmY5UFE5MTllSVliWWIzNGxtZ29VM0V1b3llQWRuc3JVUmxjbVBFQTdiR3NFK0hiXC9BZVY3RUZRc1dDTnRWUHRwbU5BYzZZcExEcExWWU1ZMzZvNDBBPT0iLCJtYWMiOiI2N2ZiMGY0OWNiODE4ZWM3ZGZlODIyMjBmZWU5YmIyN2E5MzBhYjU2MTJkZmVjYTdjZDFmM2ZiNWY0MjUyZjYyIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637503000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InVLNlh1XC9pMkdOSEtPWWNzYm9EWmNBPT0iLCJ2YWx1ZSI6IkUyUXNmSDAzQUxYaTVVVE5uN0NqQUpKY0lUdXpvZEJ3QVMrbSt4YysxM0FiRW9WTHcrXC9zdGV4cVpkQSszTVwvTkhzZTExUmdtOFlUWDBIUGs3eTJQa1E9PSIsIm1hYyI6ImQ4ZmRkMGI0YzNiZWYzYzJiYTNmNmIzMjFlNjcwOTBhM2RhMDZjYjNmNTEwMDMwNzA5MGQ0MzgyMDY0NTQ4ZjUifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637503000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjByYUluNEVvbE81RUJzUitGekhUTlE9PSIsInZhbHVlIjoiRzZ5Y3ZOVVprRThFTTBCU2hMRk5ZNzM5UzZ0UGpFQW5OVFluM1owcmN1YkJ2Mm85Z3lMSmpyRmxaSFBvSjJIQytoaHRzbjF5SjY3cWlNMnY3cTltbGc9PSIsIm1hYyI6ImI4ZWU3NWUxMzQ1ZTA5OTFhZThiODljMzdjYzk4NzQxZWQ0YWQ4ODk0ZmI1NDdiNjc2MjJkYzEwY2FhMWM2MTQifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637503000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkpqWStYQ0cxOFVmVGxhTTR4YkJnenc9PSIsInZhbHVlIjoiRkVvMWVZWGtIVUo4azhNXC9IWXlnSkp5YzJjZ0NjVjNvMmRCQzhxdW8xc1hGWlBCdkt3MjhzbkJPQ1duNzRobXowSlhQYW5nTHpyblk0NlwvaXNWNFRhZz09IiwibWFjIjoiZjM0OTkwOGUwMjBlOTdkYzRlZGU4MjJmYTMxY2U1NDVmMzE1N2QxYjg2NWQ3NTY0NmRlOWM2MTE5YjVlZjhiYSJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637446000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjFycDFMZjVVN1R4WEZvazVNWWVsUUE9PSIsInZhbHVlIjoiOEI2VitzT2FhOVQ1NHlJNmE3UThPMHhpOVJQSG53UXRZb2I1akJTcnhkWUdybElWUlNJMnA0WU5la1NwSnpDaWNzbGErbXF2TkprNmRQWGs1YkVXRVE9PSIsIm1hYyI6ImYxOGUxNDVkY2EyNmNkN2IyMzNmZjVmMjc0ZmY0MWE5Y2RmZjYyODc0ZDhlMTVkYzM1NmQ1ZGJlYTE3NDE3NzkifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637446000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ik5Xa3NFeW13NUR5UmxKcFk4a0VhVHc9PSIsInZhbHVlIjoiaW14RHlLVXFjK0Vhb0M4NTRxSk5NeVMrZGM3T2UzRGdEM1V3djNpRXNxRjRmZm9LZGd2YzlVcmhsVmJ5RzNjVDJPYk1PYnd3eFppMjBmNzJUVnNrV1E9PSIsIm1hYyI6IjNiMDZkNDZjMmVkODU0YjBmZmUyYmI2ODQyYzM5NzkxM2IxODVkMjlkZmNhNWFiMzhhMzRkMWQ2YTE4ZDdhZmEifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637431000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlpjZVFWSFdVWEJvb2s0QXlVN0dCZnc9PSIsInZhbHVlIjoiQ3JWWjJ3eVwvb3pOXC9meFdqUnRlcEJJM09zU0lZNDU4QkYxcW1CcWM1MVFZZk1pNWxRakpURnkyZzkzeEl5bEhGMGdaanRoMzFjZUNCN3ZCMklxdW5LZz09IiwibWFjIjoiMDUzM2EyNGRhYmUyOTcyNGJlYjFlYzE3OTM4MmRmNjZkMGUzODc4OWZlYTcyYmVmNWI2NjBhZWZlZjE5YjVjMyJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637431000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im9tZ0hGM3RRWWZ1dnJJS0RpbUwyekE9PSIsInZhbHVlIjoiN2xMN0RKRWNrbDAyKzI3Q1pYRmlqdmN1dXlXMENHQUpBckZwVVVlR2hwM0FQOVZ5QVg1OHRZNEFvTGRsV1FvUmVXZzFwMUg5QTQ1SUpaN3F4Wm5ieVE9PSIsIm1hYyI6ImU0MmZlZmRiZDdlN2RhNDhjNDNlZWNlNTRiNzZiYmJlYmI0M2IzNTFlYWNkZmRiMDIxNTY5ZjhhNmE3MjhmYmIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1468637390000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InRYNGlcL1JDM3N1Uk5pZkRwdGlMZEZ3PT0iLCJ2YWx1ZSI6Ijc0TFd3WjhSQ1VIQW9ndUdyM2JkZ09RR1RaTElvcEdYYzNja2loQmoxYTJsS2NKK0l1NDYwemdCU3NZdFZsOW9SZzlrekdaVXVYRG42aG9aTFRRMWRnPT0iLCJtYWMiOiJjM2M2NjAzOTBkMTQ1YzhlMWU3MzliOWMwOWVkMGE2ZDEwMTZhNWU1ZTFmMzExMDk3MzA5MWI5ZGY3YWY3NzMyIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1468637390000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkR2eU1HY2oyanlqT1JZbDRNSnpwdUE9PSIsInZhbHVlIjoiM3c5M2d1N2NqZjhicnBoQ2V4MGdwelVFdjM1ODgzTnk3RFVOQ1JFNGtrTkFxMVVsbkJrMWpETEJxUlFLSTFEUEFsM0loZTZVTkpxSWVkZGo0ZExjeGc9PSIsIm1hYyI6IjIwNTFhYWVkYzU0OGIxNDkyNTE3NTkyZGFiY2Y5ZmNjMTg5NDY2MzcwNjU0OTQxNTJmYzgxZGE1MWQ5ZDQyOGYifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/oauth/access_token" />
+          <option name="urlPath" value="/oauth/access_token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/oauth/access_2token" />
+          <option name="urlPath" value="/oauth/access_2token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -578,36 +1835,39 @@
       <workItem from="1466352875949" duration="16467000" />
       <workItem from="1467077255906" duration="2000" />
       <workItem from="1468070308211" duration="9743000" />
-      <workItem from="1468160232835" duration="1686000" />
+      <workItem from="1468160232835" duration="2286000" />
+      <workItem from="1468627216835" duration="4739000" />
+      <workItem from="1468676576908" duration="1942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39561000" />
+    <option name="totallyTimeSpent" value="46842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="20" width="1366" height="748" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2284041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31185943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2985782" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3522907" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -628,6 +1888,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -640,9 +1921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="50" column="27" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#49#95#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,7 +1928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +1935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,9 +1942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,18 +2023,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/CupomRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,6 +2083,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/OAuth2/PasswordVerifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="209" column="77" selection-start-line="209" selection-start-column="77" selection-end-line="209" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Checkrole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/oauth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -832,103 +2226,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="443">
           <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_04_24_110459_create_oauth_clients_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/OAuthClientSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="e#122#168#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
-          <folding>
-            <element signature="e#49#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Checkrole.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>

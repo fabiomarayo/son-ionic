@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::group(['prefix'=>'admin', 'as'=>'admin.', 'middleware'=>'auth.checkrole:admin'], function () {
 
     Route::get('categories',         ['uses'=>'CategoriesController@index',  'as'=>'categories']);
@@ -56,4 +55,18 @@ Route::group(['prefix'=>'customer', 'as'=>'customer.', 'middleware'=>'auth.check
     Route::get('order/create', ['uses'=>'CheckoutController@create', 'as'=>'order.create']);
     Route::post('order/store', ['uses'=>'CheckoutController@store', 'as'=>'order.store']);
 
+});
+
+Route::group(['prefix'=>'api', 'as'=>'api.', 'middleware'=>'oauth'], function () {
+    Route::get('pedidos', function() {
+       return ['id' => 1, 'client' => 'luiz carlos', 'total'=>'10,00'];
+    });
+    Route::get('teste', function() {
+        return ['id' => 1, 'client' => 'luiz carlos', 'total'=>'10,00'];
+    });
+});
+
+
+Route::post('oauth/access_token', function() {
+    return Response::json(Authorizer::issueAccessToken());
 });
