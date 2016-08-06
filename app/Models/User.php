@@ -26,6 +26,7 @@ class User extends Model implements Transformable,
      */
     protected $table = 'users';
 
+
     /**
      * The attributes that are mass assignable.
      *

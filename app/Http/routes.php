@@ -11,6 +11,8 @@
 |
 */
 
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -58,12 +60,20 @@ Route::group(['prefix'=>'customer', 'as'=>'customer.', 'middleware'=>'auth.check
 });
 
 Route::group(['prefix'=>'api', 'as'=>'api.', 'middleware'=>'oauth'], function () {
-    Route::get('pedidos', function() {
-       return ['id' => 1, 'client' => 'luiz carlos', 'total'=>'10,00'];
+
+    Route::group(['prefix'=>'client', 'as'=>'client.', 'middleware'=>'oauth.checkrole:client'], function () {
+        Route::resource('order', 'Api\Client\ClientCheckoutController', ['except' => 'create', 'edit', 'destroy']);
     });
-    Route::get('teste', function() {
-        return ['id' => 1, 'client' => 'luiz carlos', 'total'=>'10,00'];
+
+    Route::group(['prefix'=>'deliveryman', 'as'=>'deliveryman.', 'middleware'=>'oauth.checkrole:deliveryman'], function () {
+        Route::get('pedidos', function() {
+            return ['id' => 1, 'client' => 'luiz  Entregador', 'total'=>'10,00'];
+        });
     });
+
+    Route::get('authenticated', 'Api\UserController@authenticated');
+
+
 });
 
 
